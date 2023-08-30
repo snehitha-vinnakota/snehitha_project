@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include snehitha_app *.css
+recursive-include snehitha_app *.csv
+recursive-include snehitha_app *.html
+recursive-include snehitha_app *.ico
+recursive-include snehitha_app *.js
+recursive-include snehitha_app *.json
+recursive-include snehitha_app *.md
+recursive-include snehitha_app *.png
+recursive-include snehitha_app *.py
+recursive-include snehitha_app *.svg
+recursive-include snehitha_app *.txt
+recursive-exclude snehitha_app *.pyc
