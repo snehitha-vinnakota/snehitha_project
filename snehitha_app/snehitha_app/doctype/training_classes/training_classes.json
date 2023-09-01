@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-31 10:43:21.886218",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "mobile_number",
+  "e_mail",
+  "todays_topic",
+  "what_was_the_one_thing_you_found_most_helpful_",
+  "what_was_the_one_thing_you_found_least_helpful_",
+  "rating",
+  "any_other_comments_or_suggestions",
+  "submit"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "todays_topic",
+   "fieldtype": "Data",
+   "label": "Today's Topic",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "e_mail",
+   "fieldtype": "Data",
+   "label": "E mail",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Rating",
+   "label": "Rating",
+   "reqd": 1
+  },
+  {
+   "fieldname": "what_was_the_one_thing_you_found_most_helpful_",
+   "fieldtype": "Data",
+   "label": "What was the one thing you found most helpful ?",
+   "reqd": 1
+  },
+  {
+   "fieldname": "what_was_the_one_thing_you_found_least_helpful_",
+   "fieldtype": "Data",
+   "label": "What was the one thing you found least helpful ?",
+   "reqd": 1
+  },
+  {
+   "fieldname": "any_other_comments_or_suggestions",
+   "fieldtype": "Data",
+   "label": "Any other Comments or Suggestions "
+  },
+  {
+   "fieldname": "submit",
+   "fieldtype": "Button",
+   "label": "SUBMIT"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-31 11:54:06.081352",
+ "modified_by": "Administrator",
+ "module": "Snehitha App",
+ "name": "Training Classes",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
